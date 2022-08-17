@@ -1,9 +1,9 @@
 # ohw22-proj-arcticdata
 
-Title
+Title:
 Arctic in-situ observing data discovery, access, and visualization
 
-Summary
+Summary:
 Plan a data management infrastructure for data discovery and access of key Arctic data sets from Arctic research funded platforms for use by scientists and other end-users. 
 
 OR 
