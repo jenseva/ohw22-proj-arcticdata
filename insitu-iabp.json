@@ -1,0 +1,72 @@
+{
+"entryName":"IABP Buoy Data",
+"entryId":"insitu-iabp",
+"providerCredit":"IABP",
+"activeTab":"1",
+"active":"true",
+"dataType":"insitu",
+"regions":[{
+    "arctic":1,
+    "antarctic" :1,
+    "alaska":0,
+    "global":1
+}],
+"ids":[
+	"iabp_buoys"
+],
+"datasets":[
+    {
+        "id":"iabp_buoys",
+        "subname":"None",
+        "bulkDownloadUrl":"",
+        "bulkDownloadText":"",
+        "defaults":{
+          "previewDateSelectorType":"range",
+          "previewStartTime":"3days",
+          "previewEndTime":"latest"
+        },
+        "parameters":[{
+          "name": "bp",
+          "colorbar": {
+            "colorbarmin": "850",
+            "colorbarmax": "1185",
+            "logscale": "FALSE",
+            "continuity": "",
+            "sections": "",
+            "palette": "KT_amp"
+        }
+      },{ "name": "surface_temp",
+          "colorbar": {
+            "colorbarmin": "-2",
+            "colorbarmax": "40",
+            "logscale": "FALSE",
+            "continuity": "",
+            "sections": "",
+            "palette": "KT_thermal"
+        }
+      },{ "name": "air_temp",
+          "colorbar": {
+            "colorbarmin": "-10",
+            "colorbarmax": "44",
+            "logscale": "FALSE",
+            "continuity": "",
+            "sections": "",
+            "palette": "KT_thermal"
+          }
+      }
+    ]
+    }
+],
+"makeEntryFlag":"0",
+"erddapVarName":"",
+"mask":"1",
+"parameterTags":["ice", "wtemp"],
+"weightFactors":[{
+  "source":"0",
+  "parameter":"0",
+  "quality":"0"
+}],
+"pwSummary":["International Arctic Buoy Programme meteorological and oceanographic buoys. Data are updated daily. The preview and download interfaces for this dataset are currently in beta."],
+"relatedDatasets":[
+]
+}
